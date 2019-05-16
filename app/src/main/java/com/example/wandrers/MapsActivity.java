@@ -39,7 +39,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults.length > 0) {
                 if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-                    ;
+
 
                     locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
                 }
@@ -140,6 +140,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 mMap.addMarker(new MarkerOptions().position(userLoation).title("your Location"));
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(userLoation));
                 //xmlns:map="http://schemas.android.com/apk/res-auto"
+                //android app link.
 
 
             }

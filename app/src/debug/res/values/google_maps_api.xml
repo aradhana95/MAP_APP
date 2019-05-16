@@ -8,7 +8,7 @@
 
     You can also add your credentials to an existing key, using these values:
 
-    Package name:
+    Package name:Warning:(12, 6) On SDK version 23 and up, your app data will be automatically backed up and restored on app install. Consider adding the attribute `android:fullBackupContent` to specify an `@xml` resource which configures which files to backup. More info: https://developer.android.com/training/backup/autosyncapi.html
     44:15:52:46:2F:0F:52:96:38:FF:F7:11:B4:CA:6C:23:1B:DB:AC:AD
 
     SHA-1 certificate fingerprint:
